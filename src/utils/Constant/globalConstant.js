@@ -1,0 +1,47 @@
+export const ALERT_TYPE_SUCCESS = "ALERT_TYPE_SUCCESS";
+export const ALERT_TYPE_ERROR = "ALERT_TYPE_ERROR";
+export const ALERT_TYPE_INFO = "ALERT_TYPE_INFO";
+export const ALERT_TYPE_WARNING = "ALERT_TYPE_WARNING";
+
+export const STATUS_ACTIVE = 1;
+export const STATUS_INACTIVE = 0;
+
+export const BRAND_MEDICINE_TYPE_ALLOPATHIC = 1;
+export const BRAND_MEDICINE_TYPE_HERBAL = 2;
+export const BRAND_MEDICINE_TYPE_SKIN_CARE = 3;
+export const BRAND_MEDICINE_TYPE_FOOD_SUPPLEMENT = 4;
+
+export const BRAND_MEDICINE_HUMAN = 1;
+export const BRAND_MEDICINE_VETERINARY = 2;
+
+export const BRAND_PRODUCTIVE = 1;
+export const BRAND_NONPRODUCTIVE = 0;
+
+export const BRAND_PRESCRIABLE = 1;
+export const BRAND_NONPRESCRIABLE = 0;
+
+export const GENERIC_MEDICINE_TYPE_ALLOPATHIC = 1;
+export const GENERIC_MEDICINE_TYPE_HERBAL = 2;
+
+export const SITE_PAGE_ABOUT_US = 1;
+export const SITE_PAGE_PRIVACY = 2;
+export const SITE_PAGE_DISCLAIMER = 3;
+export const SITE_PAGE_TERMS = 4;
+export const SITE_PAGE_MOBILE = 5;
+
+export const SITE_INFORMATION_TITLE = 1;
+export const SITE_INFORMATION_META_TITLE = 2;
+export const SITE_INFORMATION_META_KEYWORD = 4;
+export const SITE_INFORMATION_META_DESCRIPTION = 3;
+export const SITE_INFORMATION_META_H1 = 5;
+export const SITE_INFORMATION_META_MOTO = 6;
+export const SITE_INFORMATION_META_HEADER_LOGO = 7;
+export const SITE_INFORMATION_META_FOOTER_LOGO = 8;
+
+export const ROLE_ADMIN = 1;
+export const ROLE_ADVERTISER = 2;
+
+export const PAGE_HOME = 1;
+export const PAGE_GENERIC = 2;
+export const PAGE_BRAND = 3;
+export const PAGE_BLOG = 4;
